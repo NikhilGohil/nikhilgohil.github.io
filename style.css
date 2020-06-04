@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Vesper Libre', serif;
+    color: rgb(153, 66, 25);
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(153, 66, 25);
+    font-size: 20px;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.strapline-container {
+    border: 2px solid rgb(153, 66, 25);
+    width: 90%;
+    height: 85%;
+    margin: auto auto;
+    text-align: center;
+    background-image: url(./images/coffee1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-strapline {
+    color: rgb(153, 66, 25);
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 50px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.second-strapline {
+    color: #fafaed;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.section-style {
+    text-align: center;
+    color: rgb(153, 66, 25);
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+}
+
+.about-section {
+    width: 100vw;
+    /* height: 80vh; */
+}
+
+.about-container {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    width: 45%;
+    height: 45%;
+    text-align: justify;
+    line-height: 200%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.right-box {
+    width: 45%;
+    height: 40%;
+    margin-left: 6%;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-image-one {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/Toronto.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-two {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/coffee2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-three {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/coffee3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-four {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/coffee4.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.coffee-section {
+    width: 100vw;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.row-one, .row-two, .row-three {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-item {
+    width: 30%;
+    height: 310px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2%;
+}
+
+.grid-item:hover {
+    opacity: 0.8;
+}
+
+#coffee-one {
+    background-image: url(./images/c-one.jpeg);
+}
+
+#coffee-two {
+    background-image: url(./images/c-two.jpeg);
+}
+
+#coffee-three {
+    background-image: url(./images/c-three.jpeg);
+}
+
+#coffee-four {
+    background-image: url(./images/c-four.jpg);
+}
+
+#coffee-five {
+    background-image: url(./images/c-five.jpeg);
+}
+
+#coffee-six {
+    background-image: url(./images/c-six.jpeg);
+}
+
+#coffee-seven {
+    background-image: url(./images/c-seven.jpeg);
+}
+
+#coffee-eight {
+    background-image: url(./images/c-eight.jpeg);
+}
+
+#coffee-nine {
+    background-image: url(./images/c-nine.jpeg);
+}
+
+.stores-section {
+    width: 100vw;
+}
+
+.stores-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.store-div {
+    width: 30%;
+    height: 240px;
+    text-align: center;
+    margin: 20px;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+.contact-section {
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(153, 66, 25);
+    text-align: center;
+    color: #fafaed;
+}
+
+.contact-style {
+    margin: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+.email {
+    font-size: 125%;
+}
+
+.social-media-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.social-media-icon {
+    margin: 0 7.5px;
+}
